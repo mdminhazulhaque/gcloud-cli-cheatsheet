@@ -1,7 +1,7 @@
 gcloud CLI Cheatsheet
 =====================
 
-Supercharge your daily acitivities related to GCP using the combination of `gcloud`` CLI and `jq`.
+Supercharge your daily acitivities related to GCP using the combination of `gcloud` CLI and `jq`.
 
 Prerequisites
 -------------

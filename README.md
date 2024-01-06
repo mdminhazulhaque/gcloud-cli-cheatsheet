@@ -1,5 +1,5 @@
-# AWS CLI Cheatsheet
+# gcloud CLI Cheatsheet
 
-Supercharge your daily acitivities related to AWS cloud using the combination of AWS CLI and JQ.
+Supercharge your daily acitivities related to GCP using the combination of `gcloud` CLI and `jq`.
 
-Visit [aws-jq.mdminhazulhaque.io](https://aws-jq.mdminhazulhaque.io)
+Visit [gcloud-cli-cheatsheet.mdminhazulhaque.io](https://gcloud-cli-cheatsheet.mdminhazulhaque.io)
