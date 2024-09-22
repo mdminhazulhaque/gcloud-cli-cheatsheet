@@ -15,4 +15,4 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 html_extra_path = ['CNAME', '.nojekyll']
 
-ogp_image = "/_static/aws-jq.png"
+ogp_image = "/_static/mitchell-luo-XQjovx-X5-k-unsplash.jpg"
