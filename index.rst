@@ -30,4 +30,8 @@ to point gcloud to specific Project, Region and Zone.
    artifacts
    compute
    container
+   functions
+   memorystore
+   monitoring
+   pubsub
    storage
