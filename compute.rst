@@ -14,10 +14,17 @@ List Instances
    dev-app-23592f07-qypx    35.200.50.100
    prod-app-5813e6e2-r5xg   35.200.50.101
    stage-app-d82edb97-ioot  35.200.50.102
-   
+
 SSH into an Instance
 --------------------
 
 .. code:: bash
 
    gcloud compute ssh dev-app-23592f07-qypx
+
+SSH into a Private Instance
+---------------------------
+
+.. code:: bash
+
+   gcloud compute ssh --tunnel-through-iap dev-app-23592f07-qypx
