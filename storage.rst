@@ -21,21 +21,28 @@ List Objects
 
 .. code:: bash
 
-   gcloud storage objects list gs://dev-assets
+   gcloud storage ls gs://dev-assets
 
 Delete Object
 -------------
 
 .. code:: bash
 
-   gcloud storage buckets delete gs://dev-assets/dist/js/app.min.js
+   gcloud storage rm gs://dev-assets/dist/js/app.min.js
 
 Copy From Local
 ---------------
 
 .. code:: bash
 
-   gcloud storage objects cp ./app.min.js gs://dev-assets/dist/js/app.min.js
+   gcloud storage cp ./app.min.js gs://dev-assets/dist/js/app.min.js
+
+Copy From Bucket
+---------------
+
+.. code:: bash
+
+   gcloud storage cp gs://dev-assets/dist/js/app.min.js ./app.min.js
 
 Create Public Bucket
 --------------------
