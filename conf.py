@@ -1,8 +1,7 @@
 from datetime import datetime
 
 project = 'gcloud-cli-cheatsheet'
-year = datetime.now().year
-copyright = f'{year}, Md Minhazul Haque'
+copyright = f'{datetime.now().year}, Md Minhazul Haque'
 author = 'Md Minhazul Haque'
 
 extensions = [
